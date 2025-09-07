@@ -1,0 +1,12 @@
+[
+  {
+    "question": "¿Cuál es la forma correcta del verbo 'ser' en primera persona singular?",
+    "options": ["soy", "eres", "es", "somos"],
+    "answer": "soy"
+  },
+  {
+    "question": "Escoge la forma correcta: 'Nosotros ____ estudiantes.'",
+    "options": ["eres", "somos", "son", "soy"],
+    "answer": "somos"
+  }
+]
