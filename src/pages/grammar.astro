@@ -1,8 +1,11 @@
 ---
 import Layout from "../components/Layout.astro";
 import Quiz from "../components/Quiz.jsx";
+import AuthGuard from "../components/AuthGuard.jsx";
 ---
 <Layout>
   <h1>❓ Grammar Quiz</h1>
-  <Quiz />
+  <AuthGuard client:load>
+    <Quiz />
+  </AuthGuard>
 </Layout>

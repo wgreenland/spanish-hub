@@ -1,8 +1,12 @@
 ---
 import Layout from "../components/Layout.astro";
 import Checklist from "../components/Checklist.jsx";
+import AuthGuard from "../components/AuthGuard.jsx";
 ---
 <Layout>
   <h1>✅ Daily Checklist</h1>
-  <Checklist />
+  <AuthGuard client:load>
+    <Checklist client:load />
+  </AuthGuard>
 </Layout>
+
